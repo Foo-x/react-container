@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "node -e 'fs.rmSync(`dist`, {recursive: true, force: true})'",
+    "build": "tsc",
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:c": "jest --coverage",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
