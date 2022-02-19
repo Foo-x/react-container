@@ -71,6 +71,11 @@ export default Counter
 As shown above, the logic and the view are separated, so each can be tested easily.
 
 
+## Snippets
+
+- [For VSCode](./.vscode/container.code-snippets)
+
+
 ## Advance
 
 If you have very complex logic, consider using [react-tea](https://github.com/Foo-x/react-tea), which applies The Elm Architecture for React.

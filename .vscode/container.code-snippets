@@ -1,0 +1,28 @@
+{
+  "Container": {
+    "prefix": "container",
+    "body": [
+      "import { Container, UseHooks, View } from '@foo-x/react-container';",
+      "",
+      "type Props = {",
+      "  $1",
+      "};",
+      "",
+      "type HooksResult = {",
+      "  $2",
+      "};",
+      "",
+      "export const useHooks: UseHooks<Props, HooksResult> = ({ props }) => {",
+      "  $3",
+      "};",
+      "",
+      "export const view: View<Props, HooksResult> = ({ props, hooksResult }) => {",
+      "  $4",
+      "};",
+      "",
+      "const $5 = Container({ useHooks, view });",
+      "",
+      "export default $5;"
+    ]
+  },
+}
