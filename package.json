@@ -1,5 +1,5 @@
 {
-  "name": "react-container",
+  "name": "@foo-x/react-container",
   "version": "0.1.0",
   "description": "Hooks + View = Container",
   "main": "dist/index.js",
