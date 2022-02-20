@@ -25,7 +25,7 @@ describe('Container', () => {
     );
   };
 
-  const Sut = Container({ useHooks, view });
+  const Sut = Container({ useHooks, view, displayName: 'Sut' });
 
   test('value', () => {
     render(<Sut value={10} />);
